@@ -1,0 +1,29 @@
+module alu(data_operandA, data_operandB, ctrl_ALUopcode, ctrl_shiftamt, data_result, isNotEqual, isLessThan, overflow);
+
+   input [31:0] data_operandA, data_operandB;
+   input [4:0] ctrl_ALUopcode, ctrl_shiftamt;
+
+   output [31:0] data_result;
+   output isNotEqual, isLessThan, overflow;
+
+	wire [1:0] overflow_buffer;
+	wire[31:0] buffer_B;
+	wire select;
+	
+	assign select = ctrl_ALUopcode[0];
+	
+	wire[31:0] buffer_B_2;
+	generate
+		genvar i;
+		for(i = 0; i < 32; i = i + 1) begin: description
+			not (buffer_B_2[i], data_operandB[i]);
+		end
+	endgenerate
+	
+	assign buffer_B = select ? buffer_B_2 : data_operandB;
+	
+	CLA_32 CLA_32_test(data_operandA[31:0], buffer_B[31:0],select, data_result[31:0], overflow_buffer[1:0]);
+	
+	xor(overflow, overflow_buffer[1], overflow_buffer[0]);
+	
+endmodule

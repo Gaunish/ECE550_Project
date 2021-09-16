@@ -1,0 +1,181 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/ECE 550D/Project/ECE550/addsub-56-base-master/simulation/modelsim
+vadd_sub
+Z1 !s110 1631779529
+!i10b 1
+!s100 8z0LlP]SOTf@R9gkbGhI51
+IW8jeQ>J^Cln7D7HV?z5YA0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1631733941
+8E:/ECE 550D/Project/ECE550/addsub-56-base-master/add_sub.v
+FE:/ECE 550D/Project/ECE550/addsub-56-base-master/add_sub.v
+L0 1
+Z3 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z4 !s108 1631779529.000000
+!s107 E:/ECE 550D/Project/ECE550/addsub-56-base-master/add_sub.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/ECE 550D/Project/ECE550/addsub-56-base-master|E:/ECE 550D/Project/ECE550/addsub-56-base-master/add_sub.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+E:/ECE 550D/Project/ECE550/addsub-56-base-master}
+valu
+R1
+!i10b 1
+!s100 2:A9<aIk>kD?:Q>z;VOg:1
+Ikh7U=dW3HMOHR7OY<343c0
+R2
+R0
+w1631779474
+8E:/ECE 550D/Project/ECE550/addsub-56-base-master/alu.v
+FE:/ECE 550D/Project/ECE550/addsub-56-base-master/alu.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1631779528.000000
+!s107 E:/ECE 550D/Project/ECE550/addsub-56-base-master/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/ECE 550D/Project/ECE550/addsub-56-base-master|E:/ECE 550D/Project/ECE550/addsub-56-base-master/alu.v|
+!i113 1
+R5
+R6
+valu_tb
+Z7 !s110 1631779530
+!i10b 1
+!s100 KRU7?JE<LBcMcFO`U0BPM1
+IMO>_5`S`X1BNiVBfAA8QS1
+R2
+R0
+w1631777718
+8E:/ECE 550D/Project/ECE550/addsub-56-base-master/alu_tb.v
+FE:/ECE 550D/Project/ECE550/addsub-56-base-master/alu_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1631779530.000000
+!s107 E:/ECE 550D/Project/ECE550/addsub-56-base-master/alu_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/ECE 550D/Project/ECE550/addsub-56-base-master|E:/ECE 550D/Project/ECE550/addsub-56-base-master/alu_tb.v|
+!i113 1
+R5
+R6
+vand_op
+R1
+!i10b 1
+!s100 ck1n?1`R?Hg<Ch]5NKI[=1
+IRbWSF8K6T1oWeZo5mA4i>1
+R2
+R0
+w1631777420
+8E:/ECE 550D/Project/ECE550/addsub-56-base-master/and_op.v
+FE:/ECE 550D/Project/ECE550/addsub-56-base-master/and_op.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/ECE 550D/Project/ECE550/addsub-56-base-master/and_op.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/ECE 550D/Project/ECE550/addsub-56-base-master|E:/ECE 550D/Project/ECE550/addsub-56-base-master/and_op.v|
+!i113 1
+R5
+R6
+vCLA_16
+R1
+!i10b 1
+!s100 VnXNIj=O^ZM4_0=R3=Ckf1
+I=0UWj:DmIXRVfhj]8;hk10
+R2
+R0
+w1631733854
+8E:/ECE 550D/Project/ECE550/addsub-56-base-master/CLA_16.v
+FE:/ECE 550D/Project/ECE550/addsub-56-base-master/CLA_16.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/ECE 550D/Project/ECE550/addsub-56-base-master/CLA_16.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/ECE 550D/Project/ECE550/addsub-56-base-master|E:/ECE 550D/Project/ECE550/addsub-56-base-master/CLA_16.v|
+!i113 1
+R5
+R6
+n@c@l@a_16
+vCLA_32
+R1
+!i10b 1
+!s100 RZ9nUBE:6<H_I3N>I;J2=2
+In;U6R9L4V<S6:zb4BM7R[2
+R2
+R0
+w1631733903
+8E:/ECE 550D/Project/ECE550/addsub-56-base-master/CLA_32.v
+FE:/ECE 550D/Project/ECE550/addsub-56-base-master/CLA_32.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/ECE 550D/Project/ECE550/addsub-56-base-master/CLA_32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/ECE 550D/Project/ECE550/addsub-56-base-master|E:/ECE 550D/Project/ECE550/addsub-56-base-master/CLA_32.v|
+!i113 1
+R5
+R6
+n@c@l@a_32
+vCLA_4
+R1
+!i10b 1
+!s100 2cS6IN_nLWccfWlB6GZ=_2
+I;Pa=@nT`HZaTMl4NIIM7f0
+R2
+R0
+w1631607748
+8E:/ECE 550D/Project/ECE550/addsub-56-base-master/CLA_4.v
+FE:/ECE 550D/Project/ECE550/addsub-56-base-master/CLA_4.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/ECE 550D/Project/ECE550/addsub-56-base-master/CLA_4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/ECE 550D/Project/ECE550/addsub-56-base-master|E:/ECE 550D/Project/ECE550/addsub-56-base-master/CLA_4.v|
+!i113 1
+R5
+R6
+n@c@l@a_4
+vor_op
+R7
+!i10b 1
+!s100 8ZDZTL45zi8h6XXOmKIi30
+ID2GC@@mk0aV3ZRK76Vk7_3
+R2
+R0
+w1631777614
+8E:/ECE 550D/Project/ECE550/addsub-56-base-master/or_op.v
+FE:/ECE 550D/Project/ECE550/addsub-56-base-master/or_op.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/ECE 550D/Project/ECE550/addsub-56-base-master/or_op.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/ECE 550D/Project/ECE550/addsub-56-base-master|E:/ECE 550D/Project/ECE550/addsub-56-base-master/or_op.v|
+!i113 1
+R5
+R6
