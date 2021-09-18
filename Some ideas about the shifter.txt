@@ -1,0 +1,64 @@
+//The design would be based on page61-64 of lecture4. Page 62-64 would help you understand how the shifter functions.
+
+//We will need 5 set of muxes, and each set will have 32 2-bit muxes. It could be generalized, but to make it easier, it's better to write them layer by layer.
+
+//First to design the logical left shift
+//the first module representing the red bar
+//input corresponding to the b7 to b0 on the ppt.
+//output corresponding to the out put of 2-bit muxes on the ppt. Counting from top to bottom as output[7], output[6], etc. except that
+//we are doing 32-bit now, so that would be output[31],output[30], etc.
+module mux_32_0(
+	input [31:0] a,
+	input s,//this is the shift control, which controls these 32 muxes.
+	output [31:0] out
+)
+//noticed that the lowest bit is muxed with 0;
+	mux_2(a[0],0,output[0],s);
+//use the for loop to generate the rest muxes. Corresponding to mux(b7,b6) mux(b6,b5) .etc to mux(b1,b0) on the Powerpoint.
+genvar index1
+generate
+	for(index1 = 0;index1 < 31;index1=index1+1) begin: task1
+		mux_2(a[index1],a[index1+1],output[index1+1],s)
+	end
+endgenerate
+endmodule
+
+// the second module representing the green bar. And the output of the first module is connected to the second module as input, which means that
+// the input[31:0] a is connected to output[31:0] out in the first module.
+module mux_32_2(
+	input [31:0] a,
+	input s,
+	out [31:0] output
+)
+//the lower two 2-bit muxes are muxed with 0;
+genvar index2
+generate
+	for(index2=0;index2<2;index2=index2+1)begin:task2
+		mux_2(a[index2],0,output[index2],s);
+ 	end
+endgenerate
+//the rest bits 
+genvar index3
+generate
+	for(index3 = 0;index3 < 30;index3=index3+1) begin: task3
+		mux_2(a[index3],a[index3+1],output[index3+1],s);
+	end
+endgenerate
+endmodule
+
+//I only wrote the first two layers, basically it's about using loops to generate muxes. The rest three layers can also be completed by this form.
+
+
+
+//Now it's about writing the Arithmetic Right Shift
+//basically the same idea as Logical Left Shift. 
+//The highest bit are muxed with the sign-bit instead of 0, according to the definition of Arithmetic Right Shift.
+//The definition would be like this:
+module mux_32(
+	input [31:0] a,
+	input s,
+	input signbit,
+	out [31:0] output
+)
+and when this mux_32 is used, the signbit should be assigned to the sign bit of operandA.
+
