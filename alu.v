@@ -8,7 +8,7 @@ module alu(data_operandA, data_operandB, ctrl_ALUopcode, ctrl_shiftamt, data_res
 		
 	wire [31:0] sum_buffer;
 	wire overflow_sum_buffer;
-	add_sub Add_Sub1(data_operandA, data_operandB, ctrl_ALUopcode, sum_buffer, overflow_sum_buffer);
+	add_sub Add_Sub1(data_operandA, data_operandB, ctrl_ALUopcode, sum_buffer, overflow_sum_buffer,isNotEqual,isLessThan);
 	
 	wire[31:0] and_buffer;
 	and_op And_op1(data_operandA, data_operandB, and_buffer);
