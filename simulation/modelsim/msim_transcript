@@ -12,108 +12,134 @@
 # 
 # vlog -vlog01compat -work work +incdir+E:/ECE\ 550D/Project {E:/ECE 550D/Project/alu.v}
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 12:38:39 on Sep 19,2021
+# Start time: 17:21:07 on Sep 19,2021
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/ECE 550D/Project" E:/ECE 550D/Project/alu.v 
 # -- Compiling module alu
 # 
 # Top level modules:
 # 	alu
-# End time: 12:38:39 on Sep 19,2021, Elapsed time: 0:00:00
+# End time: 17:21:07 on Sep 19,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+E:/ECE\ 550D/Project {E:/ECE 550D/Project/CLA_4.v}
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 12:38:39 on Sep 19,2021
+# Start time: 17:21:07 on Sep 19,2021
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/ECE 550D/Project" E:/ECE 550D/Project/CLA_4.v 
 # -- Compiling module CLA_4
 # 
 # Top level modules:
 # 	CLA_4
-# End time: 12:38:39 on Sep 19,2021, Elapsed time: 0:00:00
+# End time: 17:21:07 on Sep 19,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+E:/ECE\ 550D/Project {E:/ECE 550D/Project/CLA_16.v}
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 12:38:39 on Sep 19,2021
+# Start time: 17:21:08 on Sep 19,2021
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/ECE 550D/Project" E:/ECE 550D/Project/CLA_16.v 
 # -- Compiling module CLA_16
 # 
 # Top level modules:
 # 	CLA_16
-# End time: 12:38:39 on Sep 19,2021, Elapsed time: 0:00:00
+# End time: 17:21:08 on Sep 19,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+E:/ECE\ 550D/Project {E:/ECE 550D/Project/CLA_32.v}
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 12:38:39 on Sep 19,2021
+# Start time: 17:21:08 on Sep 19,2021
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/ECE 550D/Project" E:/ECE 550D/Project/CLA_32.v 
 # -- Compiling module CLA_32
 # 
 # Top level modules:
 # 	CLA_32
-# End time: 12:38:39 on Sep 19,2021, Elapsed time: 0:00:00
+# End time: 17:21:08 on Sep 19,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+E:/ECE\ 550D/Project {E:/ECE 550D/Project/add_sub.v}
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 12:38:39 on Sep 19,2021
+# Start time: 17:21:08 on Sep 19,2021
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/ECE 550D/Project" E:/ECE 550D/Project/add_sub.v 
 # -- Compiling module add_sub
+# -- Compiling module isNotEqual
 # 
 # Top level modules:
 # 	add_sub
-# End time: 12:38:39 on Sep 19,2021, Elapsed time: 0:00:00
+# End time: 17:21:08 on Sep 19,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+E:/ECE\ 550D/Project {E:/ECE 550D/Project/and_op.v}
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 12:38:39 on Sep 19,2021
+# Start time: 17:21:08 on Sep 19,2021
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/ECE 550D/Project" E:/ECE 550D/Project/and_op.v 
 # -- Compiling module and_op
 # 
 # Top level modules:
 # 	and_op
-# End time: 12:38:39 on Sep 19,2021, Elapsed time: 0:00:00
+# End time: 17:21:08 on Sep 19,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+E:/ECE\ 550D/Project {E:/ECE 550D/Project/or_op.v}
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 12:38:39 on Sep 19,2021
+# Start time: 17:21:08 on Sep 19,2021
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/ECE 550D/Project" E:/ECE 550D/Project/or_op.v 
 # -- Compiling module or_op
 # 
 # Top level modules:
 # 	or_op
-# End time: 12:38:40 on Sep 19,2021, Elapsed time: 0:00:01
+# End time: 17:21:08 on Sep 19,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+E:/ECE\ 550D/Project {E:/ECE 550D/Project/equal.v}
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 12:38:40 on Sep 19,2021
+# Start time: 17:21:08 on Sep 19,2021
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/ECE 550D/Project" E:/ECE 550D/Project/equal.v 
 # -- Compiling module equal
 # 
 # Top level modules:
 # 	equal
-# End time: 12:38:40 on Sep 19,2021, Elapsed time: 0:00:00
+# End time: 17:21:08 on Sep 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/ECE\ 550D/Project {E:/ECE 550D/Project/mux_2.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 17:21:08 on Sep 19,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/ECE 550D/Project" E:/ECE 550D/Project/mux_2.v 
+# -- Compiling module mux_2
+# 
+# Top level modules:
+# 	mux_2
+# End time: 17:21:08 on Sep 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/ECE\ 550D/Project {E:/ECE 550D/Project/left_shift.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 17:21:08 on Sep 19,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/ECE 550D/Project" E:/ECE 550D/Project/left_shift.v 
+# -- Compiling module left_shift
+# 
+# Top level modules:
+# 	left_shift
+# End time: 17:21:08 on Sep 19,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -vlog01compat -work work +incdir+E:/ECE\ 550D/Project {E:/ECE 550D/Project/alu_tb.v}
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 12:38:40 on Sep 19,2021
+# Start time: 17:21:08 on Sep 19,2021
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/ECE 550D/Project" E:/ECE 550D/Project/alu_tb.v 
 # -- Compiling module alu_tb
 # 
 # Top level modules:
 # 	alu_tb
-# End time: 12:38:40 on Sep 19,2021, Elapsed time: 0:00:00
+# End time: 17:21:09 on Sep 19,2021, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  alu_tb
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" alu_tb 
-# Start time: 12:38:41 on Sep 19,2021
+# Start time: 17:21:09 on Sep 19,2021
 # Loading work.alu_tb
 # Loading work.alu
 # Loading work.add_sub
 # Loading work.CLA_32
 # Loading work.CLA_16
 # Loading work.CLA_4
+# Loading work.isNotEqual
 # Loading work.and_op
 # Loading work.or_op
+# Loading work.left_shift
+# Loading work.mux_2
 # Loading work.equal
+# ** Warning: (vsim-3015) E:/ECE 550D/Project/add_sub.v(43): [PCDPC] - Port size (33) does not match connection size (32) for port 'operandB'. The port definition is at: E:/ECE 550D/Project/add_sub.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/Add_Sub1/isNotEqual_1 File: E:/ECE 550D/Project/add_sub.v
 # 
 # add wave *
 # view structure
@@ -124,7 +150,7 @@
 #                    0 << Starting the Simulation >>
 # The simulation completed without errors
 # ** Note: $stop    : E:/ECE 550D/Project/alu_tb.v(51)
-#    Time: 2320 ns  Iteration: 1  Instance: /alu_tb
+#    Time: 2920 ns  Iteration: 1  Instance: /alu_tb
 # Break in Module alu_tb at E:/ECE 550D/Project/alu_tb.v line 51
-# End time: 12:38:56 on Sep 19,2021, Elapsed time: 0:00:15
-# Errors: 0, Warnings: 0
+# End time: 17:23:58 on Sep 19,2021, Elapsed time: 0:02:49
+# Errors: 0, Warnings: 1

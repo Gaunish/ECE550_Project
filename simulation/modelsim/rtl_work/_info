@@ -9,68 +9,68 @@ z2
 cModel Technology
 Z0 dE:/ECE 550D/Project/simulation/modelsim
 vadd_sub
-Z1 !s110 1632069519
+Z1 !s110 1632086468
 !i10b 1
-!s100 8z0LlP]SOTf@R9gkbGhI51
-I:L:<bZS4_7zZ>:md>occn1
+!s100 9983K61QoihR@ci=kMe]c1
+Io6XQh@cE28?dz<`D891a[2
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1631733941
-8E:/ECE 550D/Project/add_sub.v
-FE:/ECE 550D/Project/add_sub.v
+Z3 w1632082979
+Z4 8E:/ECE 550D/Project/add_sub.v
+Z5 FE:/ECE 550D/Project/add_sub.v
 L0 1
-Z3 OV;L;10.4d;61
+Z6 OV;L;10.4d;61
 r1
 !s85 0
 31
-Z4 !s108 1632069519.000000
-!s107 E:/ECE 550D/Project/add_sub.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/ECE 550D/Project|E:/ECE 550D/Project/add_sub.v|
+Z7 !s108 1632086468.000000
+Z8 !s107 E:/ECE 550D/Project/add_sub.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/ECE 550D/Project|E:/ECE 550D/Project/add_sub.v|
 !i113 1
-Z5 o-vlog01compat -work work
-Z6 !s92 -vlog01compat -work work {+incdir+E:/ECE 550D/Project}
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work {+incdir+E:/ECE 550D/Project}
 valu
-R1
+Z12 !s110 1632086467
 !i10b 1
-!s100 WZ7Wd4NX[RPWF4GoNWbzf3
-IemNiU3`U1G@Q1ngc;a:O[2
+!s100 on8]UYWf[N3_O7GWJ5b_72
+I]@R;n`S<LW]9QGg6U5n;?2
 R2
 R0
-w1632069464
+w1632086281
 8E:/ECE 550D/Project/alu.v
 FE:/ECE 550D/Project/alu.v
 L0 1
-R3
+R6
 r1
 !s85 0
 31
-R4
+Z13 !s108 1632086467.000000
 !s107 E:/ECE 550D/Project/alu.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/ECE 550D/Project|E:/ECE 550D/Project/alu.v|
 !i113 1
-R5
-R6
+R10
+R11
 valu_tb
-Z7 !s110 1632069520
+!s110 1632086469
 !i10b 1
-!s100 KRU7?JE<LBcMcFO`U0BPM1
-INgO1EPMQA:]X<TIDc<<Kg3
+!s100 jbR^95Z;m@PXO@GFz>Wmi1
+I80P73gSfK6QJ4h0D42SAL1
 R2
 R0
-w1631777718
+w1632086317
 8E:/ECE 550D/Project/alu_tb.v
 FE:/ECE 550D/Project/alu_tb.v
 L0 3
-R3
+R6
 r1
 !s85 0
 31
-Z8 !s108 1632069520.000000
+R7
 !s107 E:/ECE 550D/Project/alu_tb.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/ECE 550D/Project|E:/ECE 550D/Project/alu_tb.v|
 !i113 1
-R5
-R6
+R10
+R11
 vand_op
 R1
 !i10b 1
@@ -82,16 +82,16 @@ w1631777420
 8E:/ECE 550D/Project/and_op.v
 FE:/ECE 550D/Project/and_op.v
 L0 1
-R3
+R6
 r1
 !s85 0
 31
-R4
+R7
 !s107 E:/ECE 550D/Project/and_op.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/ECE 550D/Project|E:/ECE 550D/Project/and_op.v|
 !i113 1
-R5
-R6
+R10
+R11
 vCLA_16
 R1
 !i10b 1
@@ -103,16 +103,16 @@ w1631733854
 8E:/ECE 550D/Project/CLA_16.v
 FE:/ECE 550D/Project/CLA_16.v
 L0 1
-R3
+R6
 r1
 !s85 0
 31
-R4
+R7
 !s107 E:/ECE 550D/Project/CLA_16.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/ECE 550D/Project|E:/ECE 550D/Project/CLA_16.v|
 !i113 1
-R5
-R6
+R10
+R11
 n@c@l@a_16
 vCLA_32
 R1
@@ -125,19 +125,19 @@ w1631733903
 8E:/ECE 550D/Project/CLA_32.v
 FE:/ECE 550D/Project/CLA_32.v
 L0 1
-R3
+R6
 r1
 !s85 0
 31
-R4
+R7
 !s107 E:/ECE 550D/Project/CLA_32.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/ECE 550D/Project|E:/ECE 550D/Project/CLA_32.v|
 !i113 1
-R5
-R6
+R10
+R11
 n@c@l@a_32
 vCLA_4
-R1
+R12
 !i10b 1
 !s100 2cS6IN_nLWccfWlB6GZ=_2
 I`U]411NZSi?]d6gNc[4<83
@@ -147,19 +147,19 @@ w1631607748
 8E:/ECE 550D/Project/CLA_4.v
 FE:/ECE 550D/Project/CLA_4.v
 L0 1
-R3
+R6
 r1
 !s85 0
 31
-R4
+R13
 !s107 E:/ECE 550D/Project/CLA_4.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/ECE 550D/Project|E:/ECE 550D/Project/CLA_4.v|
 !i113 1
-R5
-R6
+R10
+R11
 n@c@l@a_4
 vequal
-R7
+R1
 !i10b 1
 !s100 A^QXO0Ek=?n6:HGL<>BhR3
 I?[Z6d?:o`KW>cSiFQZn?>1
@@ -169,18 +169,82 @@ w1632069214
 8E:/ECE 550D/Project/equal.v
 FE:/ECE 550D/Project/equal.v
 L0 1
-R3
+R6
 r1
 !s85 0
 31
-R8
+R7
 !s107 E:/ECE 550D/Project/equal.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/ECE 550D/Project|E:/ECE 550D/Project/equal.v|
 !i113 1
+R10
+R11
+visNotEqual
+R1
+!i10b 1
+!s100 [1IlaC7FXLDfbjEfjV`Vi2
+IB_P^`VKT2fKV3cK]I<OOI0
+R2
+R0
+R3
+R4
 R5
+L0 46
 R6
-vor_op
+r1
+!s85 0
+31
 R7
+R8
+R9
+!i113 1
+R10
+R11
+nis@not@equal
+vleft_shift
+R1
+!i10b 1
+!s100 W8i>cni1h<QS;KYGYWiPd2
+IX_GZLnKC8AAL^jz;;KDVm1
+R2
+R0
+w1632086191
+8E:/ECE 550D/Project/left_shift.v
+FE:/ECE 550D/Project/left_shift.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 E:/ECE 550D/Project/left_shift.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/ECE 550D/Project|E:/ECE 550D/Project/left_shift.v|
+!i113 1
+R10
+R11
+vmux_2
+R1
+!i10b 1
+!s100 >NnK0no40K7=47onVj^A[0
+I:kijb@LO`klVT14K<PGfQ0
+R2
+R0
+w1632083711
+8E:/ECE 550D/Project/mux_2.v
+FE:/ECE 550D/Project/mux_2.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 E:/ECE 550D/Project/mux_2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/ECE 550D/Project|E:/ECE 550D/Project/mux_2.v|
+!i113 1
+R10
+R11
+vor_op
+R1
 !i10b 1
 !s100 8ZDZTL45zi8h6XXOmKIi30
 IR1cm7Ef[a9_J9`nn>b=^`3
@@ -190,13 +254,13 @@ w1631777614
 8E:/ECE 550D/Project/or_op.v
 FE:/ECE 550D/Project/or_op.v
 L0 1
-R3
+R6
 r1
 !s85 0
 31
-R4
+R7
 !s107 E:/ECE 550D/Project/or_op.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/ECE 550D/Project|E:/ECE 550D/Project/or_op.v|
 !i113 1
-R5
-R6
+R10
+R11

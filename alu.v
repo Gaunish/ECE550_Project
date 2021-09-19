@@ -15,6 +15,10 @@ module alu(data_operandA, data_operandB, ctrl_ALUopcode, ctrl_shiftamt, data_res
 	
 	wire[31:0] or_buffer;
 	or_op Or_op1(data_operandA, data_operandB, or_buffer);
+	
+	wire[31:0] left_buffer;
+	left_shift Left1(data_operandA, ctrl_shiftamt, left_buffer);
+
 		
 	wire[5:0] select_buffer;
 	
@@ -31,5 +35,8 @@ module alu(data_operandA, data_operandB, ctrl_ALUopcode, ctrl_shiftamt, data_res
 	
 	equal E4(ctrl_ALUopcode, 5'b00011, select_buffer[3]);
 	assign data_result = select_buffer[3] ? or_buffer : 32'bZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ; 
+	
+	equal E5(ctrl_ALUopcode, 5'b00100, select_buffer[4]);
+	assign data_result = select_buffer[4] ? left_buffer : 32'bZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ; 
 	
 endmodule

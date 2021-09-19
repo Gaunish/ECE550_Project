@@ -13,8 +13,6 @@ vlog -vlog01compat -work work +incdir+E:/ECE\ 550D/Project {E:/ECE 550D/Project/
 vlog -vlog01compat -work work +incdir+E:/ECE\ 550D/Project {E:/ECE 550D/Project/and_op.v}
 vlog -vlog01compat -work work +incdir+E:/ECE\ 550D/Project {E:/ECE 550D/Project/or_op.v}
 vlog -vlog01compat -work work +incdir+E:/ECE\ 550D/Project {E:/ECE 550D/Project/equal.v}
-vlog -vlog01compat -work work +incdir+E:/ECE\ 550D/Project {E:/ECE 550D/Project/mux_2.v}
-vlog -vlog01compat -work work +incdir+E:/ECE\ 550D/Project {E:/ECE 550D/Project/left_shift.v}
 
 vlog -vlog01compat -work work +incdir+E:/ECE\ 550D/Project {E:/ECE 550D/Project/alu_tb.v}
 
