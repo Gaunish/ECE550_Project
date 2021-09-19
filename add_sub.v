@@ -43,7 +43,7 @@ module add_sub(input[31:0]data_operandA,
 	isNotEqual isNotEqual_1(data_operandA[31:0],data_operandB[31:0],isNotEqual);
 	
 endmodule
-module isNotEqual(input[31:0] operandA,input[32:0] operandB,output notEqual);
+module isNotEqual(input[31:0] operandA,input[31:0] operandB,output notEqual);
 	wire[31:0] temp1;
 	wire[15:0] temp2;
 	wire[7:0] temp3;
