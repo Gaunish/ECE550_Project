@@ -63,11 +63,11 @@ data_operandB[28] => data_operandB[28].IN3
 data_operandB[29] => data_operandB[29].IN3
 data_operandB[30] => data_operandB[30].IN3
 data_operandB[31] => data_operandB[31].IN3
-ctrl_ALUopcode[0] => ctrl_ALUopcode[0].IN1
-ctrl_ALUopcode[1] => ctrl_ALUopcode[1].IN1
-ctrl_ALUopcode[2] => ctrl_ALUopcode[2].IN1
-ctrl_ALUopcode[3] => ctrl_ALUopcode[3].IN1
-ctrl_ALUopcode[4] => ctrl_ALUopcode[4].IN1
+ctrl_ALUopcode[0] => ctrl_ALUopcode[0].IN5
+ctrl_ALUopcode[1] => ctrl_ALUopcode[1].IN5
+ctrl_ALUopcode[2] => ctrl_ALUopcode[2].IN5
+ctrl_ALUopcode[3] => ctrl_ALUopcode[3].IN5
+ctrl_ALUopcode[4] => ctrl_ALUopcode[4].IN5
 ctrl_shiftamt[0] => ~NO_FANOUT~
 ctrl_shiftamt[1] => ~NO_FANOUT~
 ctrl_shiftamt[2] => ~NO_FANOUT~
@@ -967,5 +967,61 @@ result[28] <= description[28].OR1.DB_MAX_OUTPUT_PORT_TYPE
 result[29] <= description[29].OR1.DB_MAX_OUTPUT_PORT_TYPE
 result[30] <= description[30].OR1.DB_MAX_OUTPUT_PORT_TYPE
 result[31] <= description[31].OR1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|equal:E1
+operand_A[0] => X0_equal.IN0
+operand_A[1] => description[1].X1_equal.IN0
+operand_A[2] => description[2].X1_equal.IN0
+operand_A[3] => description[3].X1_equal.IN0
+operand_A[4] => description[4].X1_equal.IN0
+operand_B[0] => X0_equal.IN1
+operand_B[1] => description[1].X1_equal.IN1
+operand_B[2] => description[2].X1_equal.IN1
+operand_B[3] => description[3].X1_equal.IN1
+operand_B[4] => description[4].X1_equal.IN1
+out <= out_buffer[4].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|equal:E2
+operand_A[0] => X0_equal.IN0
+operand_A[1] => description[1].X1_equal.IN0
+operand_A[2] => description[2].X1_equal.IN0
+operand_A[3] => description[3].X1_equal.IN0
+operand_A[4] => description[4].X1_equal.IN0
+operand_B[0] => X0_equal.IN1
+operand_B[1] => description[1].X1_equal.IN1
+operand_B[2] => description[2].X1_equal.IN1
+operand_B[3] => description[3].X1_equal.IN1
+operand_B[4] => description[4].X1_equal.IN1
+out <= out_buffer[4].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|equal:E3
+operand_A[0] => X0_equal.IN0
+operand_A[1] => description[1].X1_equal.IN0
+operand_A[2] => description[2].X1_equal.IN0
+operand_A[3] => description[3].X1_equal.IN0
+operand_A[4] => description[4].X1_equal.IN0
+operand_B[0] => X0_equal.IN1
+operand_B[1] => description[1].X1_equal.IN1
+operand_B[2] => description[2].X1_equal.IN1
+operand_B[3] => description[3].X1_equal.IN1
+operand_B[4] => description[4].X1_equal.IN1
+out <= out_buffer[4].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|equal:E4
+operand_A[0] => X0_equal.IN0
+operand_A[1] => description[1].X1_equal.IN0
+operand_A[2] => description[2].X1_equal.IN0
+operand_A[3] => description[3].X1_equal.IN0
+operand_A[4] => description[4].X1_equal.IN0
+operand_B[0] => X0_equal.IN1
+operand_B[1] => description[1].X1_equal.IN1
+operand_B[2] => description[2].X1_equal.IN1
+operand_B[3] => description[3].X1_equal.IN1
+operand_B[4] => description[4].X1_equal.IN1
+out <= out_buffer[4].DB_MAX_OUTPUT_PORT_TYPE
 
 

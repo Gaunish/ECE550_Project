@@ -136,7 +136,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "data_operandB[0]",
+					"name" : "ctrl_ALUopcode[0]",
 					"strict" : false
 				},
 				{
@@ -156,7 +156,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "ctrl_ALUopcode[0]",
+					"name" : "data_operandB[0]",
 					"strict" : false
 				},
 				{
