@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Project1
-Thu Sep 16 04:04:49 2021
+Sun Sep 19 12:37:58 2021
 Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
 
 
@@ -14,15 +14,20 @@ Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
   8. General Register Statistics
-  9. Port Connectivity Checks: "add_sub:Add_Sub1|CLA_32:CLA_32_test|CLA_16:CLA_16_high"
- 10. Port Connectivity Checks: "add_sub:Add_Sub1|CLA_32:CLA_32_test|CLA_16:CLA_16_low|CLA_4:a3"
- 11. Port Connectivity Checks: "add_sub:Add_Sub1|CLA_32:CLA_32_test|CLA_16:CLA_16_low|CLA_4:a2"
- 12. Port Connectivity Checks: "add_sub:Add_Sub1|CLA_32:CLA_32_test|CLA_16:CLA_16_low|CLA_4:a1"
- 13. Port Connectivity Checks: "add_sub:Add_Sub1|CLA_32:CLA_32_test|CLA_16:CLA_16_low|CLA_4:a0"
- 14. Port Connectivity Checks: "add_sub:Add_Sub1|CLA_32:CLA_32_test|CLA_16:CLA_16_low"
- 15. Post-Synthesis Netlist Statistics for Top Partition
- 16. Elapsed Time Per Partition
- 17. Analysis & Synthesis Messages
+  9. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 10. Port Connectivity Checks: "equal:E4"
+ 11. Port Connectivity Checks: "equal:E3"
+ 12. Port Connectivity Checks: "equal:E2"
+ 13. Port Connectivity Checks: "equal:E1"
+ 14. Port Connectivity Checks: "add_sub:Add_Sub1|CLA_32:CLA_32_test|CLA_16:CLA_16_high"
+ 15. Port Connectivity Checks: "add_sub:Add_Sub1|CLA_32:CLA_32_test|CLA_16:CLA_16_low|CLA_4:a3"
+ 16. Port Connectivity Checks: "add_sub:Add_Sub1|CLA_32:CLA_32_test|CLA_16:CLA_16_low|CLA_4:a2"
+ 17. Port Connectivity Checks: "add_sub:Add_Sub1|CLA_32:CLA_32_test|CLA_16:CLA_16_low|CLA_4:a1"
+ 18. Port Connectivity Checks: "add_sub:Add_Sub1|CLA_32:CLA_32_test|CLA_16:CLA_16_low|CLA_4:a0"
+ 19. Port Connectivity Checks: "add_sub:Add_Sub1|CLA_32:CLA_32_test|CLA_16:CLA_16_low"
+ 20. Post-Synthesis Netlist Statistics for Top Partition
+ 21. Elapsed Time Per Partition
+ 22. Analysis & Synthesis Messages
 
 
 
@@ -49,7 +54,7 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Sep 16 04:04:49 2021       ;
+; Analysis & Synthesis Status        ; Successful - Sun Sep 19 12:37:58 2021       ;
 ; Quartus Prime Version              ; 16.0.0 Build 211 04/27/2016 SJ Lite Edition ;
 ; Revision Name                      ; Project1                                    ;
 ; Top-level Entity Name              ; alu                                         ;
@@ -164,19 +169,20 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                             ;
-+----------------------------------+-----------------+------------------------+------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                               ; Library ;
-+----------------------------------+-----------------+------------------------+------------------------------------------------------------+---------+
-; alu.v                            ; yes             ; User Verilog HDL File  ; E:/ECE 550D/Project/ECE550/addsub-56-base-master/alu.v     ;         ;
-; CLA_4.v                          ; yes             ; User Verilog HDL File  ; E:/ECE 550D/Project/ECE550/addsub-56-base-master/CLA_4.v   ;         ;
-; CLA_16.v                         ; yes             ; User Verilog HDL File  ; E:/ECE 550D/Project/ECE550/addsub-56-base-master/CLA_16.v  ;         ;
-; CLA_32.v                         ; yes             ; User Verilog HDL File  ; E:/ECE 550D/Project/ECE550/addsub-56-base-master/CLA_32.v  ;         ;
-; add_sub.v                        ; yes             ; User Verilog HDL File  ; E:/ECE 550D/Project/ECE550/addsub-56-base-master/add_sub.v ;         ;
-; and_op.v                         ; yes             ; User Verilog HDL File  ; E:/ECE 550D/Project/ECE550/addsub-56-base-master/and_op.v  ;         ;
-; or_op.v                          ; yes             ; User Verilog HDL File  ; E:/ECE 550D/Project/ECE550/addsub-56-base-master/or_op.v   ;         ;
-+----------------------------------+-----------------+------------------------+------------------------------------------------------------+---------+
++-----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                ;
++----------------------------------+-----------------+------------------------+-------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path  ; Library ;
++----------------------------------+-----------------+------------------------+-------------------------------+---------+
+; alu.v                            ; yes             ; User Verilog HDL File  ; E:/ECE 550D/Project/alu.v     ;         ;
+; CLA_4.v                          ; yes             ; User Verilog HDL File  ; E:/ECE 550D/Project/CLA_4.v   ;         ;
+; CLA_16.v                         ; yes             ; User Verilog HDL File  ; E:/ECE 550D/Project/CLA_16.v  ;         ;
+; CLA_32.v                         ; yes             ; User Verilog HDL File  ; E:/ECE 550D/Project/CLA_32.v  ;         ;
+; add_sub.v                        ; yes             ; User Verilog HDL File  ; E:/ECE 550D/Project/add_sub.v ;         ;
+; and_op.v                         ; yes             ; User Verilog HDL File  ; E:/ECE 550D/Project/and_op.v  ;         ;
+; or_op.v                          ; yes             ; User Verilog HDL File  ; E:/ECE 550D/Project/or_op.v   ;         ;
+; equal.v                          ; yes             ; User Verilog HDL File  ; E:/ECE 550D/Project/equal.v   ;         ;
++----------------------------------+-----------------+------------------------+-------------------------------+---------+
 
 
 +-----------------------------------------------------------------------+
@@ -216,7 +222,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +-------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------+-------------+--------------+
 ; Compilation Hierarchy Node    ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                  ; Entity Name ; Library Name ;
 +-------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------+-------------+--------------+
-; |alu                          ; 211 (72)          ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 109  ; 0            ; |alu                                                                 ; alu         ; work         ;
+; |alu                          ; 211 (68)          ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 109  ; 0            ; |alu                                                                 ; alu         ; work         ;
 ;    |add_sub:Add_Sub1|         ; 139 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|add_sub:Add_Sub1                                                ; add_sub     ; work         ;
 ;       |CLA_32:CLA_32_test|    ; 139 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|add_sub:Add_Sub1|CLA_32:CLA_32_test                             ; CLA_32      ; work         ;
 ;          |CLA_16:CLA_16_high| ; 67 (13)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|add_sub:Add_Sub1|CLA_32:CLA_32_test|CLA_16:CLA_16_high          ; CLA_16      ; work         ;
@@ -229,6 +235,10 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;             |CLA_4:a1|        ; 16 (16)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|add_sub:Add_Sub1|CLA_32:CLA_32_test|CLA_16:CLA_16_low|CLA_4:a1  ; CLA_4       ; work         ;
 ;             |CLA_4:a2|        ; 15 (15)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|add_sub:Add_Sub1|CLA_32:CLA_32_test|CLA_16:CLA_16_low|CLA_4:a2  ; CLA_4       ; work         ;
 ;             |CLA_4:a3|        ; 16 (16)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|add_sub:Add_Sub1|CLA_32:CLA_32_test|CLA_16:CLA_16_low|CLA_4:a3  ; CLA_4       ; work         ;
+;    |equal:E1|                 ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|equal:E1                                                        ; equal       ; work         ;
+;    |equal:E2|                 ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|equal:E2                                                        ; equal       ; work         ;
+;    |equal:E3|                 ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|equal:E3                                                        ; equal       ; work         ;
+;    |equal:E4|                 ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|equal:E4                                                        ; equal       ; work         ;
 +-------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -246,6 +256,56 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Number of registers using Clock Enable       ; 0     ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                            ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output  ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------+
+; 5:1                ; 2 bits    ; 6 LEs         ; 2 LEs                ; 4 LEs                  ; No         ; |alu|equal:E1|out_buffer[4] ;
+; 5:1                ; 2 bits    ; 6 LEs         ; 2 LEs                ; 4 LEs                  ; No         ; |alu|equal:E3|out_buffer[4] ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "equal:E4"              ;
++-----------------+-------+----------+--------------+
+; Port            ; Type  ; Severity ; Details      ;
++-----------------+-------+----------+--------------+
+; operand_B[1..0] ; Input ; Info     ; Stuck at VCC ;
+; operand_B[4..2] ; Input ; Info     ; Stuck at GND ;
++-----------------+-------+----------+--------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "equal:E3"              ;
++-----------------+-------+----------+--------------+
+; Port            ; Type  ; Severity ; Details      ;
++-----------------+-------+----------+--------------+
+; operand_B[4..2] ; Input ; Info     ; Stuck at GND ;
+; operand_B[1]    ; Input ; Info     ; Stuck at VCC ;
+; operand_B[0]    ; Input ; Info     ; Stuck at GND ;
++-----------------+-------+----------+--------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "equal:E2"              ;
++-----------------+-------+----------+--------------+
+; Port            ; Type  ; Severity ; Details      ;
++-----------------+-------+----------+--------------+
+; operand_B[4..1] ; Input ; Info     ; Stuck at GND ;
+; operand_B[0]    ; Input ; Info     ; Stuck at VCC ;
++-----------------+-------+----------+--------------+
+
+
++---------------------------------------------+
+; Port Connectivity Checks: "equal:E1"        ;
++-----------+-------+----------+--------------+
+; Port      ; Type  ; Severity ; Details      ;
++-----------+-------+----------+--------------+
+; operand_B ; Input ; Info     ; Stuck at GND ;
++-----------+-------+----------+--------------+
 
 
 +----------------------------------------------------------------------------------------------------------------+
@@ -339,54 +399,57 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
-    Info: Processing started: Thu Sep 16 04:04:36 2021
+    Info: Processing started: Sun Sep 19 12:37:46 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Project1 -c Project1
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 1 design units, including 1 entities, in source file alu_tb.v
-    Info (12023): Found entity 1: alu_tb File: E:/ECE 550D/Project/ECE550/addsub-56-base-master/alu_tb.v Line: 3
+    Info (12023): Found entity 1: alu_tb File: E:/ECE 550D/Project/alu_tb.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file alu.v
-    Info (12023): Found entity 1: alu File: E:/ECE 550D/Project/ECE550/addsub-56-base-master/alu.v Line: 1
+    Info (12023): Found entity 1: alu File: E:/ECE 550D/Project/alu.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file cla_4.v
-    Info (12023): Found entity 1: CLA_4 File: E:/ECE 550D/Project/ECE550/addsub-56-base-master/CLA_4.v Line: 1
+    Info (12023): Found entity 1: CLA_4 File: E:/ECE 550D/Project/CLA_4.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file cla_16.v
-    Info (12023): Found entity 1: CLA_16 File: E:/ECE 550D/Project/ECE550/addsub-56-base-master/CLA_16.v Line: 1
+    Info (12023): Found entity 1: CLA_16 File: E:/ECE 550D/Project/CLA_16.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file cla_32.v
-    Info (12023): Found entity 1: CLA_32 File: E:/ECE 550D/Project/ECE550/addsub-56-base-master/CLA_32.v Line: 1
+    Info (12023): Found entity 1: CLA_32 File: E:/ECE 550D/Project/CLA_32.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file add_sub.v
-    Info (12023): Found entity 1: add_sub File: E:/ECE 550D/Project/ECE550/addsub-56-base-master/add_sub.v Line: 1
+    Info (12023): Found entity 1: add_sub File: E:/ECE 550D/Project/add_sub.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file and_op.v
-    Info (12023): Found entity 1: and_op File: E:/ECE 550D/Project/ECE550/addsub-56-base-master/and_op.v Line: 1
+    Info (12023): Found entity 1: and_op File: E:/ECE 550D/Project/and_op.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file or_op.v
-    Info (12023): Found entity 1: or_op File: E:/ECE 550D/Project/ECE550/addsub-56-base-master/or_op.v Line: 1
+    Info (12023): Found entity 1: or_op File: E:/ECE 550D/Project/or_op.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file equal.v
+    Info (12023): Found entity 1: equal File: E:/ECE 550D/Project/equal.v Line: 1
 Info (12127): Elaborating entity "alu" for the top level hierarchy
-Warning (10034): Output port "isNotEqual" at alu.v(7) has no driver File: E:/ECE 550D/Project/ECE550/addsub-56-base-master/alu.v Line: 7
-Warning (10034): Output port "isLessThan" at alu.v(7) has no driver File: E:/ECE 550D/Project/ECE550/addsub-56-base-master/alu.v Line: 7
-Info (12128): Elaborating entity "add_sub" for hierarchy "add_sub:Add_Sub1" File: E:/ECE 550D/Project/ECE550/addsub-56-base-master/alu.v Line: 11
-Info (12128): Elaborating entity "CLA_32" for hierarchy "add_sub:Add_Sub1|CLA_32:CLA_32_test" File: E:/ECE 550D/Project/ECE550/addsub-56-base-master/add_sub.v Line: 33
-Info (12128): Elaborating entity "CLA_16" for hierarchy "add_sub:Add_Sub1|CLA_32:CLA_32_test|CLA_16:CLA_16_low" File: E:/ECE 550D/Project/ECE550/addsub-56-base-master/CLA_32.v Line: 11
-Info (12128): Elaborating entity "CLA_4" for hierarchy "add_sub:Add_Sub1|CLA_32:CLA_32_test|CLA_16:CLA_16_low|CLA_4:a0" File: E:/ECE 550D/Project/ECE550/addsub-56-base-master/CLA_16.v Line: 32
-Info (12128): Elaborating entity "and_op" for hierarchy "and_op:And_op1" File: E:/ECE 550D/Project/ECE550/addsub-56-base-master/alu.v Line: 14
-Info (12128): Elaborating entity "or_op" for hierarchy "or_op:Or_op1" File: E:/ECE 550D/Project/ECE550/addsub-56-base-master/alu.v Line: 17
+Warning (10034): Output port "isNotEqual" at alu.v(7) has no driver File: E:/ECE 550D/Project/alu.v Line: 7
+Warning (10034): Output port "isLessThan" at alu.v(7) has no driver File: E:/ECE 550D/Project/alu.v Line: 7
+Info (12128): Elaborating entity "add_sub" for hierarchy "add_sub:Add_Sub1" File: E:/ECE 550D/Project/alu.v Line: 11
+Info (12128): Elaborating entity "CLA_32" for hierarchy "add_sub:Add_Sub1|CLA_32:CLA_32_test" File: E:/ECE 550D/Project/add_sub.v Line: 33
+Info (12128): Elaborating entity "CLA_16" for hierarchy "add_sub:Add_Sub1|CLA_32:CLA_32_test|CLA_16:CLA_16_low" File: E:/ECE 550D/Project/CLA_32.v Line: 11
+Info (12128): Elaborating entity "CLA_4" for hierarchy "add_sub:Add_Sub1|CLA_32:CLA_32_test|CLA_16:CLA_16_low|CLA_4:a0" File: E:/ECE 550D/Project/CLA_16.v Line: 32
+Info (12128): Elaborating entity "and_op" for hierarchy "and_op:And_op1" File: E:/ECE 550D/Project/alu.v Line: 14
+Info (12128): Elaborating entity "or_op" for hierarchy "or_op:Or_op1" File: E:/ECE 550D/Project/alu.v Line: 17
+Info (12128): Elaborating entity "equal" for hierarchy "equal:E1" File: E:/ECE 550D/Project/alu.v Line: 21
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "isNotEqual" is stuck at GND File: E:/ECE 550D/Project/ECE550/addsub-56-base-master/alu.v Line: 7
-    Warning (13410): Pin "isLessThan" is stuck at GND File: E:/ECE 550D/Project/ECE550/addsub-56-base-master/alu.v Line: 7
+    Warning (13410): Pin "isNotEqual" is stuck at GND File: E:/ECE 550D/Project/alu.v Line: 7
+    Warning (13410): Pin "isLessThan" is stuck at GND File: E:/ECE 550D/Project/alu.v Line: 7
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 5 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "ctrl_shiftamt[0]" File: E:/ECE 550D/Project/ECE550/addsub-56-base-master/alu.v Line: 4
-    Warning (15610): No output dependent on input pin "ctrl_shiftamt[1]" File: E:/ECE 550D/Project/ECE550/addsub-56-base-master/alu.v Line: 4
-    Warning (15610): No output dependent on input pin "ctrl_shiftamt[2]" File: E:/ECE 550D/Project/ECE550/addsub-56-base-master/alu.v Line: 4
-    Warning (15610): No output dependent on input pin "ctrl_shiftamt[3]" File: E:/ECE 550D/Project/ECE550/addsub-56-base-master/alu.v Line: 4
-    Warning (15610): No output dependent on input pin "ctrl_shiftamt[4]" File: E:/ECE 550D/Project/ECE550/addsub-56-base-master/alu.v Line: 4
+    Warning (15610): No output dependent on input pin "ctrl_shiftamt[0]" File: E:/ECE 550D/Project/alu.v Line: 4
+    Warning (15610): No output dependent on input pin "ctrl_shiftamt[1]" File: E:/ECE 550D/Project/alu.v Line: 4
+    Warning (15610): No output dependent on input pin "ctrl_shiftamt[2]" File: E:/ECE 550D/Project/alu.v Line: 4
+    Warning (15610): No output dependent on input pin "ctrl_shiftamt[3]" File: E:/ECE 550D/Project/alu.v Line: 4
+    Warning (15610): No output dependent on input pin "ctrl_shiftamt[4]" File: E:/ECE 550D/Project/alu.v Line: 4
 Info (21057): Implemented 320 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 74 input pins
     Info (21059): Implemented 35 output pins
     Info (21061): Implemented 211 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 12 warnings
-    Info: Peak virtual memory: 4951 megabytes
-    Info: Processing ended: Thu Sep 16 04:04:49 2021
-    Info: Elapsed time: 00:00:13
-    Info: Total CPU time (on all processors): 00:00:26
+    Info: Peak virtual memory: 4950 megabytes
+    Info: Processing ended: Sun Sep 19 12:37:58 2021
+    Info: Elapsed time: 00:00:12
+    Info: Total CPU time (on all processors): 00:00:25
 
 
