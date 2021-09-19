@@ -404,11 +404,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "ctrl_ALUopcode[1]",
+					"name" : "ctrl_ALUopcode[2]",
 					"strict" : false
 				},
 				{
-					"name" : "ctrl_ALUopcode[2]",
+					"name" : "ctrl_ALUopcode[1]",
 					"strict" : false
 				},
 				{

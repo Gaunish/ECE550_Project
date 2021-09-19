@@ -35,7 +35,7 @@ module alu_tb();
         checkAdd();
         checkSub();
         checkSLL();
-        //checkSRA();
+        checkSRA();
 
         checkNE();
         checkLT();

@@ -30,8 +30,7 @@ module add_sub(input[31:0]data_operandA,
 	//select the value for second operand based on select opcode
 	assign buffer_B = select ? buffer_B_2 : data_operandB;
 	
-	//Add/subtract the two 32-bit input data based on the opcode
-	//Note : select is fanned-in as carry-in to implement the function of 2s complement for subtractor
+	//Note : select is inputted as carry-in to implement the function of 2s complement for subtractor
 	CLA_32 CLA_32_test(data_operandA[31:0], buffer_B[31:0],select, data_result[31:0], overflow_buffer[1:0]);
 	
 	//Compute the overflow based on condition:
