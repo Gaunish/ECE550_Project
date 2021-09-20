@@ -92,7 +92,11 @@ For both shifters :   a)  Used 5 layers of muxes, one layer for each select bit
 	          -------------------------------------------------------------------------------
 
 5) isNotEqual :
+	Used Xor gates to compare two operands, then sum up the results by using Or gates to check if there's different bits.
 
 6) isLessThan:
+    Compute the isLessThan by Xor the sign-bit of result and the overflow bit.
+	Because either there's overflow (positive minus negative) or the result is negative (positvie minus negative or negative minus negative).
+	And, if both the sign-bit and the overflow bit are 1, which means it could be a negative number minus a positive number. 
 	
 ----------------------------------------------------------------------------------------------------------------------------------=

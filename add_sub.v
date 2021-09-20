@@ -37,8 +37,9 @@ module add_sub(input[31:0]data_operandA,
 	// overflow = 0 : carry-in == carry-out & vice-versa
 	xor X1(overflow, overflow_buffer[1], overflow_buffer[0]);
 	
+	//Compute the isLessThan by this because either there's overflow (positive minus negative) or the result is negative (positvie minus negative or negative minus negative)
 	xor X2(isLessThan,data_result[31],overflow);
-	
+	//Use this method to compute if all the bits are equal. Applied a multi-level architecture to minimize the gate delay.
 	isNotEqual isNotEqual_1(data_operandA[31:0],data_operandB[31:0],isNotEqual);
 	
 endmodule
