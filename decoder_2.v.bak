@@ -1,0 +1,15 @@
+module decoder_2(
+	input[1:0] a,
+	output[3:0] b
+);
+	wire not_0;
+	wire not_1;
+	
+	not(not_0,a[0]);
+	not(not_1,a[1]);
+	and(b[3],a[0],a[1]);
+	and(b[2],not_0,a[1]);
+	and(b[1],not_1,a[0]);
+	and(b[0],not_0,not_1);
+
+endmodule
